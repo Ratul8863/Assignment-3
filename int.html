@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse4Pets Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css">
+</head>
+<body class="bg-white">
+  <!-- Navbar Section -->
+  <header class="bg-yellow-50 shadow-md">
+    <nav class="navbar px-5 md:px-10">
+      <div class="flex-1">
+        <a class="text-2xl font-bold text-yellow-600">
+          Browse<span class="text-black">4Pets</span>
+        </a>
+      </div>
+
+      <!-- Desktop Links -->
+      <div class="hidden md:flex space-x-8">
+        <a href="#" class="btn btn-ghost">Find a Pet</a>
+        <a href="#" class="btn btn-ghost">Breeds</a>
+        <a href="#" class="btn btn-ghost">Contact Us</a>
+      </div>
+
+      <!-- Action Buttons (Desktop) -->
+      <div class="hidden md:flex space-x-4">
+        <button class="btn btn-outline">Login</button>
+        <button class="btn bg-yellow-500 text-white">Register</button>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <div class="dropdown dropdown-end md:hidden">
+        <label tabindex="0" class="btn btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </label>
+        <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a href="#">Find a Pet</a></li>
+          <li><a href="#">Breeds</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><button class="btn btn-outline">Login</button></li>
+          <li><button class="btn bg-yellow-500 text-white">Register</button></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <main class="flex flex-col md:flex-row items-center justify-between p-5 md:px-10">
+    <div class="text-center md:text-left md:w-1/2">
+      <h1 class="text-4xl font-extrabold leading-snug text-gray-800">
+        Pamper Your Pet, Because They Deserve the Best
+      </h1>
+      <p class="mt-4 text-gray-600">
+        Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!
+      </p>
+      <button class="btn bg-yellow-500 text-white mt-6">Find a pet</button>
+    </div>
+    <div class="mt-8 md:mt-0 md:w-1/2">
+      <img src="https://placekitten.com/600/400" alt="Cute Cat Image" class="w-full rounded-lg">
+    </div>
+  </main>
+
+</body>
+
+  <!-- Footer Section -->
+  <footer class="bg-yellow-50 mt-10">
+    <div class="container mx-auto py-6 px-5 md:flex md:justify-between">
+      <!-- About Section -->
+      <div class="mb-4 md:mb-0">
+        <h2 class="text-xl font-bold text-gray-800">About Browse4Pets</h2>
+        <p class="text-gray-600 mt-2">
+          Discover a world of care and essentials handpicked for your furry friends. Join us and make tails wag with joy!
+        </p>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="mb-4 md:mb-0">
+        <h2 class="text-xl font-bold text-gray-800">Quick Links</h2>
+        <ul class="mt-2 space-y-2">
+          <li><a href="#" class="text-gray-600 hover:text-yellow-500">Find a Pet</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-yellow-500">Breeds</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-yellow-500">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="md:mb-0">
+        <h2 class="text-xl font-bold text-gray-800">Contact Us</h2>
+        <p class="mt-2 text-gray-600">
+          Email: support@browse4pets.com <br>
+          Phone: +123 456 7890
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="border-t border-gray-300 mt-4 py-4 text-center">
+      <p class="text-sm text-gray-600">© 2025 Browse4Pets. All rights reserved.</p>
+    </div>
+  </footer>
+
+</html>
